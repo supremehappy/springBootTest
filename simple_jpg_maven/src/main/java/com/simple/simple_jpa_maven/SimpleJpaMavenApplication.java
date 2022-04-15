@@ -1,4 +1,4 @@
-package com.simple.simple_jpg_maven;
+package com.simple.simple_jpa_maven;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,12 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SimpleJpgMavenApplication {
+public class SimpleJpaMavenApplication {
 
-	private static final Logger log = LoggerFactory.getLogger(SimpleJpgMavenApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(SimpleJpaMavenApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimpleJpgMavenApplication.class, args);
+		SpringApplication.run(SimpleJpaMavenApplication.class, args);
 	}
 
 	@Bean

@@ -1,4 +1,4 @@
-package com.simple.simple_jpg_maven;
+package com.simple.simple_jpa_maven;
 
 import java.util.List;
 
