@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.simple.simplemybatis_maven.repository.BankMapper">
+
+    <select id="selectBankById" resultType="Bank">
+        SELECT id
+              ,banknm
+        FROM bank
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectAllBank" resultType="Bank">
+        SELECT id
+              ,banknm
+        FROM bank
+    </select>
+
+    <insert id="insertBank" parameterType="Bank">
+      INSERT INTO bank (id, banknm)
+      VALUES (#{id}, #{banknm})
+    </insert>
+
+</mapper>
