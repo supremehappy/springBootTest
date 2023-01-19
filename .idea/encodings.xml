@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/simple/sample_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple/sample_maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_batch/simple_batch_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_batch/simple_batch_maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_batchapi_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_db/simple_db_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_db/simple_db_maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_jpa/simple_jpa_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_jpa/simple_jpa_maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_mybatis/simplemybaits_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_mybatis/simplemybaits_maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_swagger/simple_swagger_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_swagger/simple_swagger_maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_thymeleaf/simple_thymeleaf_maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple_thymeleaf/simple_thymeleaf_maven/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simplemybaits_maven" />
+        <module name="simple_db_maven" />
+        <module name="simple_thymeleaf_maven" />
+        <module name="simple_jpg_maven" />
+        <module name="simple_swagger_maven" />
+        <module name="simple_batchapi_maven" />
+        <module name="simple_batch_maven" />
+        <module name="sample_maven" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.22/9c08ea24c6eb714e2d6170e8122c069a0ba9aacf/lombok-1.18.22.jar" />
+        </processorPath>
+        <module name="sample_gradle.main" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sample_maven" options="-parameters" />
+      <module name="simple_batch_maven" options="-parameters" />
+      <module name="simple_batchapi_maven" options="-parameters" />
+      <module name="simple_db_maven" options="-parameters" />
+      <module name="simple_jpg_maven" options="-parameters" />
+      <module name="simple_swagger_maven" options="-parameters" />
+      <module name="simple_thymeleaf_maven" options="-parameters" />
+      <module name="simplemybaits_maven" options="-parameters" />
+    </option>
+  </component>
+</project>
